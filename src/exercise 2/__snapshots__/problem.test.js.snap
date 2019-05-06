@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The counter updates when I click the button 1`] = `
+<button
+  onClick={[Function]}
+>
+  1
+</button>
+`;
