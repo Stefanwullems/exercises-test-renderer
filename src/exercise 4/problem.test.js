@@ -42,9 +42,9 @@ const TodoList = (props) => {
   )
 }
 
-// Make the tests pass by using the find method on root
+// Use findAll to see if a todo is added when you click the add todo button
 
-test('The status toggles when I click the button', () => {
+test('A todo gets rendered when I press the button', () => {
   const { root } = create(<TodoList />)
 
   let input

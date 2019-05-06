@@ -17,7 +17,7 @@ class MyComponent extends React.Component {
   }
 }
 
-// Make the tests pass by using the find method on root
+// Mock the input node so that you can check if focus gets called
 
 test('input.focus is accessible from the class component', () => {
 
